@@ -3,7 +3,7 @@ locals {
   instance_subnet      = data.aws_subnet.selected.id 
   instance_key_pair    = aws_key_pair.student.key_name
   instance_tags        = {
-    "Name" = format("MyInstance22-%s", formatdate("YYYYMMDD", timestamp()))
+    "Name" = format("Deeksha22-%s", formatdate("YYYYMMDD", timestamp()))
   }
 }
 
